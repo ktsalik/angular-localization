@@ -1,6 +1,6 @@
 {
   "name": "angular-localization",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Localization using Angular",
   "main": "dist/angular-i18n.min.js",
   "dependencies": {},
