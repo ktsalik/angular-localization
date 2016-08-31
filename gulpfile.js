@@ -10,10 +10,10 @@ gulp.task('build', function() {
     'src/i18n.directive.js',
     'src/i18n.service.js'
   ])
-    .pipe(concat('angular-i18n.js'))
+    .pipe(concat('angular-localization.js'))
     .pipe(gulp.dest('dist'))
     .pipe(uglify())
-    .pipe(rename('angular-i18n.min.js'))
+    .pipe(rename('angular-localization.min.js'))
     .pipe(gulp.dest('dist'));
 });
 

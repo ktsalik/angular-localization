@@ -1,8 +1,8 @@
 {
-  "name": "angular-i18n",
+  "name": "angular-localization",
   "version": "0.0.1",
   "description": "Localization using Angular",
-  "main": "angular-i18n.min.js",
+  "main": "dist/angular-i18n.min.js",
   "dependencies": {},
   "devDependencies": {
     "angular": "^1.5.8",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masterakos/angular-i18n.git"
+    "url": "git+https://github.com/masterakos/angular-localization.git"
   },
   "keywords": [
     "localization",
@@ -31,7 +31,7 @@
   "author": "Kostas Tsalikidis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/masterakos/angular-i18n/issues"
+    "url": "https://github.com/masterakos/angular-localization/issues"
   },
-  "homepage": "https://github.com/masterakos/angular-i18n#readme"
+  "homepage": "https://github.com/masterakos/angular-localization#readme"
 }
