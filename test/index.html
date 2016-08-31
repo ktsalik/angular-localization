@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body ng-app="testApp" ng-controller="testController as ctrl">
+    
+    <span i18n="hello_message"></span>
+    
+    <hr>
+    
+    <button id="btn-el" ng-click="ctrl.setLanguage('el')">
+      <span i18n="set_language_to"></span>
+      <span i18n="greek"></span>
+    </button>
+    
+    <button id="btn-en" ng-click="ctrl.setLanguage('en')">
+      <span i18n="set_language_to"></span>
+      <span i18n="english"></span>
+    </button>
+    
+    <script src="angular/angular.min.js"></script>
+    <script src="angular-i18n.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

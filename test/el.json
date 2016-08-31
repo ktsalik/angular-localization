@@ -1,0 +1,9 @@
+{
+  "name": "ελληνικά",
+  "translations": {
+    "hello_message": "γεια από την βιβλιοθήκη angular-i18n",
+    "set_language_to": "γλώσσα στα",
+    "english": "αγγλικά",
+    "greek": "ελληνικά"
+  }
+}

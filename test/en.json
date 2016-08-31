@@ -1,0 +1,9 @@
+{
+  "name": "english",
+  "translations": {
+    "hello_message": "hello from angular-i18n localization library",
+    "set_language_to": "set language to",
+    "english": "english",
+    "greek": "greek"
+  }
+}
