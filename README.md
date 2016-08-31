@@ -2,12 +2,14 @@
 
 Angular localization library. Makes it easy to manage languages on your website.
 
+<br>
 ## Installation
 ### Using npm
 ````bash
 $ npm install angular-localization
 ````
 
+<br>
 ## Usage
 ### [Live Example](https://embed.plnkr.co/uQedPz/)
 <br>
@@ -80,5 +82,6 @@ angular
   }])
 ````
 
+<br>
 ## Documentation
 *(work in progress)*
