@@ -1,0 +1,36 @@
+{
+  "name": "angular-i18n",
+  "version": "0.0.1",
+  "description": "Localization using Angular",
+  "main": "angular-i18n.min.js",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterakos/angular-i18n.git"
+  },
+  "keywords": [
+    "localization",
+    "angular",
+    "library",
+    "translation",
+    "i18n"
+  ],
+  "author": "Kostas Tsalikidis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masterakos/angular-i18n/issues"
+  },
+  "homepage": "https://github.com/masterakos/angular-i18n#readme"
+}
