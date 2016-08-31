@@ -1,6 +1,6 @@
 # Angular-localization
 
-Angular localization library. Makes it easy to manage languages for your website.
+Angular localization library. Makes it easy to manage languages on your website.
 
 ## Installation
 ### Using npm
@@ -10,14 +10,16 @@ $ npm install angular-localization
 
 ## Usage
 ### [Live Example](https://embed.plnkr.co/uQedPz/)
-Inject the library
+<br>
+##### Injecting the library
 ````javascript
 angular
   .module('yourApp', [
     'i18n'
   ])
 ````
-Configurate the library
+<br>
+##### Configuration
 ````javascript
 angular
   .module('yourApp')
@@ -33,7 +35,8 @@ angular
     
   }])
 ````
-Example translation file ````assets/locals/en.json````
+<br>
+##### Example translation file ````assets/locals/en.json````
 ````json
 {
   "name": "english",
@@ -43,11 +46,13 @@ Example translation file ````assets/locals/en.json````
   }
 }
 ````
-Using the **directive**
+<br>
+##### Using the directive
 ````html
 <span i18n="foo"></span>
 ````
-Using the **provider** inside a controller
+<br>
+##### Using the provider inside a controller
 ````javascript
 angular
   .module('yourApp')
@@ -65,7 +70,8 @@ and then just
   </div>
 </body>
 ````
-Changing language
+<br>
+##### Changing language
 ````javascript
 angular
   .module('yourApp')
